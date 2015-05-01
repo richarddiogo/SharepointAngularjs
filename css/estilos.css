@@ -1,0 +1,171 @@
+.container {
+  margin: 0 auto;
+  width: 940px;
+}
+
+body {
+  color: #333333;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-serif;
+}
+
+header {
+  position: relative;
+}
+
+header h1 {
+  /* tamanho do elemento = imagem */
+  height: 85px;
+  width: 225px;
+
+  /* imagem como fundo */
+  background-image: url(../img/logo.png);
+
+  /* retirando o texto da frente */
+  text-indent: -9999px;
+}
+
+.sacola {
+  background: url(../img/sacola.png) no-repeat top right;
+  font-size: 14px;
+  padding-right: 35px;
+  text-align: right;
+  width: 140px;
+}
+
+.menu-setores ul {
+  font-size: 15px;
+}
+
+.menu-setores a {
+   color: #003366;
+}
+
+.menu-setores ul {
+  font-size: 15px;
+}
+
+.menu-setores a {
+   color: #003366;
+}
+
+
+.menu-setores ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.sacola {
+  padding-top: 8px;
+  position: absolute;
+  top: 8px;
+  right: 0;
+}
+
+.menu-setores {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.menu-departamentos{
+  float: left;
+}
+
+.busca, 
+.menu-departamentos {
+  background-color: #dcdcdc;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  margin-right: 10px;
+  width: 230px;
+}
+
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
+  margin: 10px;
+}
+
+.menu-departamentos ul li {
+  background-color: white;
+  margin-bottom: 1px;
+  padding: 5px 10px;
+}
+
+.menu-departamentos ul li a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.busca, 
+.menu-departamentos {
+  float: left;
+}
+
+.menu-departamentos {
+  clear: left;
+}
+.menu-departamentos {
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+.busca input {
+  vertical-align: middle;
+}
+
+.busca input[type=search] {
+  width: 170px;
+}
+
+footer {
+  background-image: url(../img/fundo-rodape.png);
+  padding: 20px 0;
+  clear: both;
+}
+
+footer .container {
+  position: relative;
+}
+
+footer h1 {
+  /* tamanho da imagem */
+  height: 52px;
+  width: 142px;
+
+  /* image replacement */
+  background-image: url(../img/logo-rodape.png);
+  text-indent: -9999px;
+}
+
+.social li a {
+  /* tamanho da imagem */
+  height: 32px;
+  width: 32px;
+
+  /* image replacement */
+  display: block;
+  text-indent: -9999px;  
+}
+
+.social a[href*="facebook.com"] {
+  background-image: url(../img/facebook.png);
+}
+
+.social a[href*="twitter.com"] {
+  background-image: url(../img/twitter.png);
+}
+
+.social a[href*="plus.google.com"] {
+  background-image: url(../img/googleplus.png);
+}
+
+.social {
+  position: absolute;
+  top: 12px;
+  right: 0;
+}
+.social li {
+  float: left;
+  margin-left: 25px;
+}

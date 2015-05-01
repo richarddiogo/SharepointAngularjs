@@ -1,0 +1,143 @@
+.filtro{
+  width: 50%;
+  margin: 20px auto 0 auto;
+  padding: 0 auto 0 auto;
+}
+
+.filtro input{
+  width: 100%;
+  font-size: 1em;
+  margin: 0 auto 0 auto;
+  padding: 0 auto 0 auto;
+
+}
+.sacola {
+  position:fixed;
+  padding-right: 35px;
+  text-align: right;
+  width: 140px;
+  right: 105px;
+  z-index: 1;
+}
+
+#carrinho {
+  margin-top: 20px;
+}
+
+#carrinho li{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#carrinho .painel-imagem, .item-info{
+	display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+li h2 {
+  color: #555;
+  font-size: 20px;
+  padding: 0 0 20px 0;
+  margin: 0;
+}
+
+li .item-info h2 ~ p {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.adicionar {
+  background: #91bd3c;
+  box-shadow: 0 1px 5px #333;
+  color: #333;
+  display: inline-block;
+  font-size: 22px;
+  margin: 30px 0;
+  padding: 15px 25px;
+  text-decoration: none;
+  width: 100px;
+  height: 20px;
+}
+
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background: #dcdcdc;
+  color: black;
+}
+
+@media (max-width: 939px) {
+
+  .container {
+    width: 98%;
+  }
+
+  .filtro{
+    width: 70%;
+    margin: 40px auto 0 auto;
+  }
+
+  .filtro input{
+    font-size: 1.3em;
+  }
+  header h1 {
+    margin: 5px auto;
+    padding: 0;
+    display:none;
+  }
+
+  .menu-setores {
+    position: static;
+    text-align: center;
+    display:none;
+
+  }
+  .menu-setores ul li {
+    display: inline-block;
+    margin: 5px;
+  }
+  .sacola{
+    background: white;
+    margin: 0 auto 0 auto; 
+    padding: 0 10%;
+    font-size: 1.2em;
+    width: 100%;
+    right: 0;
+    z-index: 1;
+  }
+
+  #carrinho {
+    text-align: center;
+    width: auto;
+  }
+  #carrinho li{
+    margin: 5% 0 5% 0;
+    text-align: center;
+    width: auto;
+    float: none;
+    z-index: 100;
+  }
+
+  #carrinho .painel-imagem, .item-info{
+    float: none;
+    display: block;
+  }
+
+  #carrinho li div{
+    text-align: center;
+  }
+
+  .adicionar{
+    display: none;
+  }
+
+  ul li div img{
+    width: 40%
+  }
+  
+}
+

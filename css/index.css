@@ -1,0 +1,52 @@
+.destaque{
+	margin-bottom: 10px;
+	clear: left;
+}
+
+.destaques{
+	display: none; 
+}
+
+@media (max-width: 939px){
+
+	.container {
+	  width: 98%;
+	}
+
+	header h1 {
+	  margin: 5px auto;
+	}
+
+	.sacola {
+	  display: none;
+	}
+
+	.menu-setores {
+	  position: static;
+	  text-align: center;
+	}
+	.menu-setores ul li {
+	  display: inline-block;
+	  margin: 5px;
+	}
+
+	.busca, 
+	.menu-departamentos,
+	.destaques img {
+	  margin-right: 0;
+	  width: 100%;
+	}
+
+	.destaque {
+		background-position: right bottom;
+		background-size: contain;
+	}
+	.destaques img {
+		display: inline-block;
+	}
+
+	.destaques{
+	  clear: left;
+		width: 100%;
+	}
+}
